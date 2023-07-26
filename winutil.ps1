@@ -1203,16 +1203,6 @@ Function Invoke-WPFFormVariables {
     Write-Host "====Vai Tomar No Cu Cristofer====="
     Write-Host "=====Windows Toolbox====="
                                                                                                                                          
-                                                                
-                                                             
-                                                                
-                                                             
-                                                                 
-                                                              
-                                                           
-                                                        
-                                            
-
 
 
     #====DEBUG GUI Elements====
@@ -2292,14 +2282,14 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
 
                             <StackPanel Background="{MainBackgroundColor}" Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Center" Grid.Column="0" Grid.ColumnSpan="3" Margin="10">
                                 <Label Content="Winget:" FontSize="17" VerticalAlignment="Center"/>
-                                <Button Name="WPFinstall" Content=" Instalar Seleção " Margin="7"/>
+                                <Button Name="WPFinstall" Content=" Instalar Selecao " Margin="7"/>
                                 <Button Name="WPFInstallUpgrade" Content=" Atualizar Todos " Margin="7"/>
-                                <Button Name="WPFuninstall" Content=" Desinstalar Seleção " Margin="7"/>
+                                <Button Name="WPFuninstall" Content=" Desinstalar Selecao " Margin="7"/>
                                 <Button Name="WPFGetInstalled" Content=" Ver Instalados " Margin="7"/>
-                                <Button Name="WPFclearWinget" Content=" Limpar Seleção " Margin="7"/>
+                                <Button Name="WPFclearWinget" Content=" Limpar Selecao " Margin="7"/>
                             </StackPanel>
                             <StackPanel Background="{MainBackgroundColor}" Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Center" Grid.Column="3" Grid.ColumnSpan="2" Margin="10">
-                                <Label Content="Arquivo de Configuração:" FontSize="17" VerticalAlignment="Center"/>
+                                <Label Content="Arquivo de Configuracao:" FontSize="17" VerticalAlignment="Center"/>
                                 <Button Name="WPFimportWinget" Content=" Importar " Margin="7"/>
                                 <Button Name="WPFexportWinget" Content=" Exportar " Margin="7"/>
                             </StackPanel>
@@ -2315,7 +2305,7 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                                 <CheckBox Name="WPFInstallvivaldi" Content="Vivaldi" Margin="5,0"/>
                                 <CheckBox Name="WPFInstallwaterfox" Content="Waterfox" Margin="5,0"/>
 
-                                <Label Content="Comunicação" FontSize="16" Margin="5,0"/>
+                                <Label Content="Comunicacao" FontSize="16" Margin="5,0"/>
                                 <CheckBox Name="WPFInstalldiscord" Content="Discord" Margin="5,0"/>
                                 <CheckBox Name="WPFInstallhexchat" Content="Hexchat" Margin="5,0"/>
                                 <CheckBox Name="WPFInstalljami" Content="Jami" Margin="5,0"/>
